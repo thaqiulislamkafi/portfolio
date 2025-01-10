@@ -1,0 +1,313 @@
+
+/* ..................  1st part................. */
+
+header{
+    background-color: #FFF8F3;
+    background-image: url("portfolio-resources/images/developer.png"),url("portfolio-resources/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: 5.4% , 43% ;
+    background-position: bottom left, bottom right;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav {
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    
+}
+
+nav h3 {
+    font-weight: 800;
+    font-size: 45px;
+    margin-left: 170px;
+}
+
+.text-primary{
+   color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    gap: 51px;
+    align-items: center;
+    margin-right: 170px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.btn-primary {
+
+     background-color: #FD6E0A ;
+     padding: 15px 30px;
+     font-size: 14px;
+     color: white;
+     font-weight: bold;
+     border: none;
+     border-radius: 5px;
+}
+
+.btn-primary a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+.banner {
+    margin-left: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner img {
+    width: 370px;
+    margin-right: 70px;
+}
+
+.banner-content h4 {
+     
+     margin-bottom: 0px;
+     font-size: 37px;
+     font-weight: 600;
+     color: #474747;;
+}
+
+.banner-content h1 {
+    margin-top: 0px;
+    margin-bottom: 18px;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.banner-content p {
+    font-size: 17px;
+    color: #757575;
+    max-width: 500px;
+    margin-bottom: 23px;
+
+}
+
+
+
+/* ..................  2nd part  ................. */
+
+
+.about h3 {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    
+}
+
+.about{
+    margin: 190px;
+    background-color: #FFF8F3;
+    padding: 110px;
+    border-radius: 10px;
+    
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about p {
+    align-items: center;
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.card {
+    display: flex;
+    gap: 43px;
+    margin-top: 27px;
+}
+
+.name p, .email p, .date-of-birth p, .from p{
+    margin: 0; 
+}
+
+.name h5, .email h5, .date-of-birth h5, .from h5{
+    margin: 2px; 
+    font-weight: 700px;
+    font-size: 18px;
+    color: #757575;
+}
+
+
+/* ..................  3rd part  ................. */
+
+
+.what-i-do {
+    margin: 190px;
+    text-align: center;
+}
+
+.what-i-do h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.what-i-do  p {
+   font-size: 17px;
+   line-height: 27px;
+   color: #757575;
+}
+
+.skills{
+    display: flex;
+    gap: 22px;
+    text-align: left;
+    margin-top: 50px;
+    
+}
+
+.js, .react, .node, .mongodb{
+    padding: 26px;
+    box-shadow: 0px 6px 30px 0px #e9e8e8 ;
+}
+
+.js p, .react p, .node p, .mongodb p{
+     font-size: 14px;
+}
+
+.js h3, .react h3, .node h3, .mongodb h3{
+    font-size: 18px;
+}
+
+
+/* ..................  4th part  ................. */
+
+.resume{
+    margin: 190px;
+    
+}
+
+.resume-container{
+    display: flex;
+    gap: 60px;
+}
+
+.resume h3 {
+    text-align: center;
+    font-size: 37px;
+}
+
+.resume-container h3 {
+    text-align: left;
+    font-size: 26px;
+    color: #474747;
+}
+
+.resume-container-1  {
+    text-align: left;
+    
+}
+
+.resume-container h5{
+    font-weight: bold;
+    font-size: 20px;
+    color: #474747 ;
+    margin-bottom: 0;
+}
+
+.resume-container h6{
+    font-weight: 600;
+    font-size: 16px;
+    color: #474747 ;
+    margin: 8px 0;
+}
+
+.resume-container p{
+    font-size: 14px;
+    color: #474747 ;
+    line-height: 24px;
+    
+}
+
+/* ..................  5th part  ................. */
+
+.foot{
+    background-color: #FFF8F3;
+    padding: 230px 180px;
+}
+
+
+.foot-container{
+    
+    margin-bottom: 0px;
+    display: flex;
+    gap: 110px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container h3 , .input h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.text-container p {
+    
+    font-size: 14 px;
+    color: #474747;
+}
+
+.image img{
+    margin-right: 10px;
+    margin-top: 20px;
+   
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    padding: 10px 20px ;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea{
+    width: 100%;
+    height: 120px;
+    padding: 20px  ;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+input::placeholder,textarea::placeholder{
+    font-family: "Open Sans", serif;
+    font-size: 15px;
+
+}
